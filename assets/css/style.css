@@ -9,22 +9,47 @@
 #left{
     width: 240px;
     background-color: #f2f2f2;
-    height: 335px;
+    height: 338px;
+    box-sizing: border-box;
     border: 2px solid #000;
+    padding: 35px;
+}
+
+#klok {
+    width: 175px;
+    height: 175px;
+    background-color: cornflowerblue;
+    border-radius: 50%;
+    font-size: 130px;
 }
 
 #middle {
     width: 568px;
-    height: 339px;
-    background-color: rgb(0, 0, 106);
+    height: 338px;
+    background-color: cornflowerblue;
     padding: 35px;
     box-sizing: border-box;
     border: 2px solid #000;
 }
 
+#main_screen {
+    width: 490px;
+    height: 240px;
+    background-color: #f2f2f2;
+}
+
+#below_screen {
+    width: 490px;
+    height: 25px;
+    background-color: rgb(0, 0, 106);
+}
+
 #right{
     width:128px;
     height: 335px;
-    background-color: rgb(0, 0, 106);
+    background-color: cornflowerblue;
+    height: 338px;
+    box-sizing: border-box;
     border: 2px solid #000;
+    padding: 35px;
 }
